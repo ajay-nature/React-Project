@@ -1,0 +1,30 @@
+  .theme-toggler {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .theme-toggler.light {
+    background-color: #f8f8f8;
+  }
+  
+  .theme-toggler.dark {
+    background-color: #000000;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 2px solid #000000;
+    border-radius: 5px;
+  }
+  
+  .theme-toggler.dark button {
+    background-color: #000000;
+    color: #fff;
+    border: 2px solid #fff;
+
+  }
